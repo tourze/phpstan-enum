@@ -6,8 +6,8 @@
   "license": "MIT",
   "require": {
     "composer-runtime-api": "^2.0",
-    "tourze/enum-extra": "0.1.*",
-    "tourze/phpunit-enum": "0.0.*"
+    "tourze/enum-extra": "1.*",
+    "tourze/phpunit-enum": "1.*"
   },
   "require-dev": {
     "phpstan/phpstan": "^2.1",
