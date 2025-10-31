@@ -1,0 +1,14 @@
+services:
+    # Enum
+    -
+        class: Tourze\PHPStanEnum\EnumTestMustExtendAbstractEnumTestCaseRule
+        tags:
+            - phpstan.rules.rule
+    -
+        class: Tourze\PHPStanEnum\NoRedundantMethodsWithItemTraitRule
+        tags:
+            - phpstan.rules.rule
+    -
+        class: Tourze\PHPStanEnum\NoRedundantMethodsWithSelectTraitRule
+        tags:
+            - phpstan.rules.rule

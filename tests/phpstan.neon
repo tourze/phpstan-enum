@@ -1,0 +1,11 @@
+parameters:
+    level: 8
+    paths:
+        - data
+    bootstrapFiles:
+        - ../../../vendor/autoload.php
+
+rules:
+    - Tourze\PHPStanEnum\EnumTestMustExtendAbstractEnumTestCaseRule
+    - Tourze\PHPStanEnum\NoRedundantMethodsWithItemTraitRule
+    - Tourze\PHPStanEnum\NoRedundantMethodsWithSelectTraitRule

@@ -1,0 +1,30 @@
+{
+  "name": "tourze/phpstan-enum",
+  "description": "",
+  "type": "library",
+  "homepage": "https://github.com/tourze/phpstan-enum",
+  "license": "MIT",
+  "require": {
+    "composer-runtime-api": "^2.0",
+    "tourze/enum-extra": "0.1.*",
+    "tourze/phpunit-enum": "0.0.*"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^2.1",
+    "phpunit/phpunit": "^11.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tourze\\PHPStanEnum\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tourze\\PHPStanEnum\\Tests\\": "tests/",
+      "Tourze\\PHPStanEnum\\Tests\\Data\\": "tests/Fixtures/"
+    }
+  },
+  "extra": {
+    "release-version": "0.1.*"
+  }
+}
